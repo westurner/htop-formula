@@ -21,5 +21,4 @@ Available states
 ``htop``
 -------------------------------------
 
-Installs the htop package,
-and starts the associated htop service.
+Installs the htop package.
