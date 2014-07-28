@@ -1,0 +1,6 @@
+
+{% set htop = salt['grains.filter_by']({
+    'default': {
+        'pkg': 'htop',
+    },
+}, merge=salt['pillar.get']('htop:lookup')) %}
